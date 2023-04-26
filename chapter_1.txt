@@ -1,0 +1,165 @@
+Chapter 1.1 Introduction
+
+1.1.1 What is deep learning?
+    • Definition of deep learning
+    • Comparison with machine learning and artificial intelligence
+    • Advantages of deep learning over traditional machine learning
+1.1.2 Brief history of deep learning
+    • The origins of neural networks
+    • Developments in neural network research in the 1980s and 1990s
+    • The resurgence of neural networks in the 2000s
+    • Breakthroughs in deep learning in the 2010s
+1.1.3 Why is deep learning important?
+    • Applications of deep learning in various fields
+    • Advantages of deep learning over traditional machine learning
+    • Potential for future developments and innovations
+1.1.4 Chapter Summary
+    • Key points covered in the chapter
+    • Importance of understanding deep learning for future study
+    • Recommended resources for further reading and exploration
+
+Chapter 1.2 Neural Networks
+1.2.1 What are neural networks?
+    • Definition of neural networks
+    • Historical development of neural networks
+    • Anatomy of a neural network
+1.2.2 Types of neural networks
+    • Feedforward neural networks
+    • Convolutional neural networks
+    • Recurrent neural networks
+    • Generative adversarial networks
+    • Autoencoders
+1.2.3 How do neural networks work?
+    • Mathematical functions of neural networks
+    • Training a neural network
+    • Forward propagation and backpropagation
+    • Overfitting and underfitting
+    • Regularization techniques
+1.2.4 Chapter Summary
+    • Key points covered in the chapter
+    • Importance of understanding neural networks for deep learning
+    • Recommended resources for further reading and exploration
+
+Chapter 1.3 Perceptrons
+1.3.1 What are perceptrons?
+    • Definition of perceptrons
+    • Anatomy of a perceptron
+    • Perceptron activation function
+1.3.2 The Rosenblatt Perceptron algorithm
+    • Introduction to the Rosenblatt Perceptron algorithm
+    • Training a perceptron using the Rosenblatt algorithm
+    • Examples of perceptron applications
+1.3.3 Limitations of the perceptron algorithm
+    • Limitations of single-layer perceptrons
+    • Introduction to multi-layer perceptrons
+    • Role of activation functions in neural networks
+1.3.4 Chapter Summary
+    • Key points covered in the chapter
+    • Importance of understanding perceptrons as building blocks of neural networks
+    • Recommended resources for further reading and exploration
+
+Chapter 1.4 Multi-Layer Perceptrons
+1.4.1 Introduction to multi-layer perceptrons
+    • Definition of multi-layer perceptrons
+    • Anatomy of a multi-layer perceptron
+    • Advantages of multi-layer perceptrons over single-layer perceptrons
+1.4.2 Backpropagation algorithm
+    • Introduction to backpropagation
+    • Backpropagation algorithm steps
+    • Backpropagation in practice
+1.4.3 Types of activation functions
+    • Sigmoid activation function
+    • Rectified Linear Unit (ReLU) activation function
+    • Hyperbolic Tangent (tanh) activation function
+    • Softmax activation function
+    • Comparison of activation functions
+1.4.4 Chapter Summary
+    • Key points covered in the chapter
+    • Importance of understanding multi-layer perceptrons and backpropagation for deep learning
+    • Recommended resources for further reading and exploration
+
+Chapter 1.5 Deep Learning Notations
+1.5.1 Vector and Matrix notation
+    • Introduction to vector and matrix notation
+    • Vector notation
+    • Matrix notation
+    • Operations with vectors and matrices
+1.5.2 Gradient descent
+    • Introduction to gradient descent
+    • Deriving the gradient descent algorithm
+    • Stochastic gradient descent
+1.5.3 Cost function
+    • Introduction to cost function
+    • Mean Squared Error (MSE) cost function
+    • Cross-Entropy cost function
+    • Regularization techniques for cost functions
+1.5.4 Chapter Summary
+    • Key points covered in the chapter
+    • Importance of understanding vector and matrix notation, gradient descent and cost functions in deep learning
+    • Recommended resources for further reading and exploration
+
+
+Chapter 1.6 The problem of local optimum and saddle point
+1.6.1 What are local optima?
+    • Definition of local optima
+    • How local optima can prevent convergence to the global optimum
+    • Examples of optimization problems with local optima
+1.6.2 How do saddle points affect optimization?
+    • Definition of saddle points
+    • How saddle points can slow down or prevent convergence to the global optimum
+    • Examples of optimization problems with saddle points
+1.6.3 Solutions to overcome the problem of local optima and saddle points
+    • Introduction to optimization methods that overcome local optima and saddle points
+    • Momentum-based optimization
+    • Second-order optimization
+    • Adaptive learning rate optimization
+    • Stochastic optimization
+1.6.4 Chapter Summary
+    • Key points covered in the chapter
+    • Importance of understanding the problem of local optima and saddle points in deep learning optimization
+    • Recommended resources for further reading and exploration
+
+Chapter 1.7 Applications of Deep Learning
+1.7.1 Computer vision
+    • Introduction to computer vision
+    • Applications of computer vision using deep learning
+    • Image classification, object detection, segmentation, and recognition
+    • Popular deep learning models for computer vision tasks
+1.7.2 Natural language processing
+    • Introduction to natural language processing
+    • Applications of NLP using deep learning
+    • Text classification, sentiment analysis, language modeling, and machine translation
+    • Popular deep learning models for NLP tasks
+1.7.3 Speech recognition
+    • Introduction to speech recognition
+    • Applications of speech recognition using deep learning
+    • Automatic speech recognition (ASR) and speaker recognition
+    • Popular deep learning models for speech recognition tasks
+1.7.4 Robotics
+    • Introduction to robotics
+    • Applications of robotics using deep learning
+    • Robot perception, control, and decision-making
+    • Popular deep learning models for robotics tasks
+1.7.5 Healthcare
+    • Introduction to healthcare
+    • Applications of deep learning in healthcare
+    • Medical image analysis, diagnosis, and prediction
+    • Popular deep learning models for healthcare tasks
+1.7.6 Chapter Summary
+    • Key points covered in the chapter
+    • Importance of understanding the applications of deep learning in various fields
+    • Recommended resources for further reading and exploration
+
+Chapter 1.8 Conclusion
+1.8.1 Summary of the chapter
+    • Recap of the topics covered in the chapter
+    • Importance of understanding the fundamentals of deep learning for building more complex models
+1.8.2 Key takeaways
+    • Key concepts covered in the chapter
+    • Importance of understanding the history and applications of deep learning
+    • The role of neural networks, perceptrons, and multi-layer perceptrons in deep learning
+    • The significance of deep learning notations and the problem of local optima and saddle points
+1.8.3 Further reading
+    • Recommended resources for further reading and exploration
+    • Books, research papers, online courses, and tutorials to deepen your understanding of deep learning
+    • Suggestions for practical projects and exercises to apply your knowledge in real-world scenarios
