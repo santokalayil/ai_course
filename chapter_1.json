@@ -1,108 +1,191 @@
 {
     "Chapter 1.1 Introduction": {
-       "1.1.1 What is deep learning?": {
-          "Definition of deep learning": [
-            "Deep learning is a subfield of machine learning that uses artificial neural networks with multiple layers to model and solve complex problems. It is inspired by the structure and function of the human brain and is capable of learning from large amounts of data to improve its performance over time. Deep learning algorithms can be trained on a variety of data types such as images, audio, text, and sensor data, and have shown great success in a wide range of applications, including computer vision, natural language processing, speech recognition, and robotics."
-          ],
-          "Comparison with machine learning and artificial intelligence": [
-            "Machine learning, artificial intelligence, and deep learning are related but distinct fields.",
-            "Machine learning is a subset of artificial intelligence that focuses on building algorithms that can learn patterns and relationships in data without being explicitly programmed. Machine learning algorithms can be supervised, unsupervised, or semi-supervised, and can be used for tasks such as classification, regression, clustering, and reinforcement learning.",
-            "Artificial intelligence is a broad field that encompasses all aspects of creating intelligent machines that can simulate human behavior, perception, and cognition. AI includes machine learning, as well as other techniques such as rule-based systems, expert systems, genetic algorithms, and fuzzy logic.",
-            "Deep learning is a subfield of machine learning that uses artificial neural networks with multiple layers to model and solve complex problems. It is capable of learning from large amounts of data and has shown great success in a wide range of applications, including computer vision, natural language processing, speech recognition, and robotics.",
-            "In summary, machine learning is a subset of artificial intelligence that focuses on building algorithms that can learn patterns and relationships in data. Deep learning is a subfield of machine learning that uses artificial neural networks with multiple layers to model and solve complex problems. Artificial intelligence is a broader field that encompasses all aspects of creating intelligent machines."
-        ],
-          "Advantages of deep learning over traditional machine learning": [
-            "Deep learning has several advantages over traditional machine learning:",
-            {
-                "type": "bulleted",
-                "content": {
-                    "Ability to handle complex data": "Deep learning algorithms are capable of handling high-dimensional and complex data, such as images, speech, and text, which traditional machine learning algorithms struggle with.",
-                    "Automated feature extraction": "Deep learning models can automatically learn relevant features from raw data, eliminating the need for manual feature engineering, which is time-consuming and requires domain expertise.",
-                    "Improved accuracy": "Deep learning models can achieve higher accuracy on a wide range of tasks, including image classification, speech recognition, and natural language processing, compared to traditional machine learning algorithms.",
-                    "Scalability": "Deep learning models can be scaled up easily to handle large amounts of data, using parallel computing on GPUs or TPUs, while traditional machine learning algorithms may struggle with scalability.",
-                    "Flexibility": "Deep learning models can be applied to a wide range of applications, from image and speech recognition to natural language processing and robotics, making it a versatile tool for solving complex problems."
+        "1.1.1 What is deep learning?": {
+            "Definition of deep learning": [
+                "Deep learning is a subfield of machine learning that uses artificial neural networks with multiple layers to model and solve complex problems. It is inspired by the structure and function of the human brain and is capable of learning from large amounts of data to improve its performance over time. Deep learning algorithms can be trained on a variety of data types such as images, audio, text, and sensor data, and have shown great success in a wide range of applications, including computer vision, natural language processing, speech recognition, and robotics."
+            ],
+            "Comparison with machine learning and artificial intelligence": [
+                "Machine learning, artificial intelligence, and deep learning are related but distinct fields.",
+                "Machine learning is a subset of artificial intelligence that focuses on building algorithms that can learn patterns and relationships in data without being explicitly programmed. Machine learning algorithms can be supervised, unsupervised, or semi-supervised, and can be used for tasks such as classification, regression, clustering, and reinforcement learning.",
+                "Artificial intelligence is a broad field that encompasses all aspects of creating intelligent machines that can simulate human behavior, perception, and cognition. AI includes machine learning, as well as other techniques such as rule-based systems, expert systems, genetic algorithms, and fuzzy logic.",
+                "Deep learning is a subfield of machine learning that uses artificial neural networks with multiple layers to model and solve complex problems. It is capable of learning from large amounts of data and has shown great success in a wide range of applications, including computer vision, natural language processing, speech recognition, and robotics.",
+                "In summary, machine learning is a subset of artificial intelligence that focuses on building algorithms that can learn patterns and relationships in data. Deep learning is a subfield of machine learning that uses artificial neural networks with multiple layers to model and solve complex problems. Artificial intelligence is a broader field that encompasses all aspects of creating intelligent machines."
+            ]
+        },
+        "1.1.2 Brief history of deep learning": {
+            "The origins of neural networks": [
+                "The origins of neural networks can be traced back to the 1940s when Warren McCulloch and Walter Pitts created the first mathematical model of a neuron. In the 1950s, Frank Rosenblatt developed the perceptron, a type of neural network that could learn to recognize visual patterns. However, limitations of the perceptron algorithm led to a decline in neural network research in the 1960s and 1970s.",
+                "In the 1980s and 1990s, new neural network algorithms were developed, such as the backpropagation algorithm for training multi-layer perceptrons. Despite these developments, traditional machine learning methods continued to dominate the field.",
+                "The resurgence of neural networks occurred in the 2000s, as researchers explored new architectures such as convolutional neural networks (CNNs) and recurrent neural networks (RNNs). Breakthroughs in deep learning occurred in the 2010s, with the development of new techniques such as deep belief networks (DBNs), and the widespread availability of large datasets and powerful computing resources."
+            ],
+            "Developments in neural network research in the 1980s and 1990s": [
+                "While the perceptron algorithm and its limitations had dampened enthusiasm for neural networks in the 1960s and 1970s, interest in neural networks picked up again in the 1980s with the development of new algorithms such as the backpropagation algorithm, which made training multi-layer neural networks feasible.",
+                "At this time, researchers also began exploring the use of neural networks for a wide range of applications, including speech recognition, image classification, and natural language processing. However, the limited computational resources of the time meant that training these neural networks remained a slow and expensive process.",
+                "In the 1990s, the emergence of support vector machines (SVMs) and other machine learning algorithms that could achieve comparable results with faster training times led to a decline in interest in neural networks.",
+                "Despite this decline, researchers continued to explore new neural network architectures and algorithms, paving the way for the resurgence of neural networks in the 2000s."
+            ],
+            "The resurgence of neural networks in the 2000s": [
+                "During the 2000s, there was a resurgence of interest in neural networks, with researchers developing new algorithms and architectures for training them. One notable breakthrough was the introduction of the restricted Boltzmann machine (RBM) in 2006, which allowed for the training of deep neural networks. This paved the way for the development of deep learning algorithms that could handle large amounts of data and learn complex patterns in a way that was not possible before. Another important development during this time was the use of graphics processing units (GPUs) to speed up the training of deep neural networks, making it possible to train much larger networks than before. These advancements led to a significant increase in the performance of deep learning algorithms, leading to their widespread adoption in various fields."
+            ],
+            "Breakthroughs in deep learning in the 2010s": [
+                "The breakthroughs in deep learning in the 2010s were largely driven by the availability of large datasets and the computational power to train deep neural networks. One of the key breakthroughs was the development of convolutional neural networks (CNNs) which revolutionized computer vision tasks such as image classification and object detection. Another breakthrough was the development of recurrent neural networks (RNNs) and long short-term memory (LSTM) networks which enabled the processing of sequential data such as natural language sentences and speech. These breakthroughs in deep learning have led to significant advancements in a wide range of applications including image and speech recognition, natural language processing, robotics, and healthcare, among others."
+            ]
+        },
+        "1.1.3 Why is deep learning important?": {
+            "Applications of deep learning in various fields": [
+                "Deep learning has rapidly gained popularity and has been applied in a wide range of fields such as computer vision, natural language processing, speech recognition, robotics, and healthcare, among others. For example, in computer vision, deep learning has been used to create models that can recognize objects in images, detect faces, or segment images into different regions. In natural language processing, deep learning has enabled the development of models that can understand and generate natural language, perform sentiment analysis, or translate languages. In healthcare, deep learning has been used to diagnose diseases, predict patient outcomes, and analyze medical images such as CT scans or MRI images. The potential applications of deep learning are vast and continue to expand as more researchers and practitioners develop new models and techniques. Therefore, understanding the principles and fundamentals of deep learning is crucial for anyone looking to work in these fields or develop innovative solutions to complex problems."
+            ],
+            "Advantages of deep learning over traditional machine learning": [
+                "Deep learning has several advantages over traditional machine learning:",
+                {
+                    "type": "bulleted",
+                    "content": {
+                        "Ability to handle complex data": "Deep learning algorithms are capable of handling high-dimensional and complex data, such as images, speech, and text, which traditional machine learning algorithms struggle with.",
+                        "Automated feature extraction": "Deep learning models can automatically learn relevant features from raw data, eliminating the need for manual feature engineering, which is time-consuming and requires domain expertise.",
+                        "Improved accuracy": "Deep learning models can achieve higher accuracy on a wide range of tasks, including image classification, speech recognition, and natural language processing, compared to traditional machine learning algorithms.",
+                        "Scalability": "Deep learning models can be scaled up easily to handle large amounts of data, using parallel computing on GPUs or TPUs, while traditional machine learning algorithms may struggle with scalability.",
+                        "Flexibility": "Deep learning models can be applied to a wide range of applications, from image and speech recognition to natural language processing and robotics, making it a versatile tool for solving complex problems."
+                    }
+                },
+                "In summary, deep learning offers several advantages over traditional machine learning, including the ability to handle complex data, automated feature extraction, improved accuracy, scalability, and flexibility."
+            ],
+            "Potential for future developments and innovations": [
+                "The potential for future developments and innovations is another key reason why deep learning is important. With its ability to handle complex tasks and process vast amounts of data, deep learning has opened up new avenues for research and development in various fields.",
+                "One of the most exciting areas of development in deep learning is the use of generative models, which have the potential to create new data based on existing data. This has applications in a wide range of fields, from art and design to drug discovery and material science.",
+                "Another area of potential development is the use of deep learning in combination with other technologies such as augmented reality and virtual reality. This could lead to the creation of immersive experiences that simulate real-world environments and interactions.",
+                "Furthermore, the use of deep learning in combination with other types of machine learning, such as reinforcement learning, could lead to the development of intelligent agents that can learn and adapt to their environment.",
+                "Overall, the potential for future developments and innovations in deep learning is vast, and it is an exciting time to be involved in this field. As new applications and techniques are discovered, the impact of deep learning on various industries and fields is expected to grow exponentially."
+            ]
+        },
+        "1.1.4 Chapter Summary": {
+            "Key points covered in the chapter": [
+                "Here are the key points covered in this chapter:",
+                {
+                    "type": "bulleted",
+                    "content": [
+                        "Deep learning is a subset of machine learning that involves training artificial neural networks with large amounts of data to make predictions or decisions.",
+                        "Deep learning has shown impressive results in various fields such as computer vision, natural language processing, speech recognition, robotics, and healthcare.",
+                        "The advantages of deep learning over traditional machine learning include the ability to automatically learn features from raw data, handle large and complex datasets, and achieve state-of-the-art performance on many tasks.",
+                        "Deep learning has a rich history dating back to the development of the perceptron algorithm in the 1950s and 1960s, the rise of connectionist theories in the 1980s and 1990s, and the breakthroughs in deep neural networks in the 2010s.",
+                        "The potential for future developments and innovations in deep learning is vast, with ongoing research into topics such as unsupervised learning, reinforcement learning, and explainable AI."
+                    ]
                 }
-            },
-            "In summary, deep learning offers several advantages over traditional machine learning, including the ability to handle complex data, automated feature extraction, improved accuracy, scalability, and flexibility."
-          ]
-       },
-       "1.1.2 Brief history of deep learning": {
-          "The origins of neural networks": [
-            "The origins of neural networks can be traced back to the 1940s when Warren McCulloch and Walter Pitts created the first mathematical model of a neuron. In the 1950s, Frank Rosenblatt developed the perceptron, a type of neural network that could learn to recognize visual patterns. However, limitations of the perceptron algorithm led to a decline in neural network research in the 1960s and 1970s.",
-            "In the 1980s and 1990s, new neural network algorithms were developed, such as the backpropagation algorithm for training multi-layer perceptrons. Despite these developments, traditional machine learning methods continued to dominate the field.",
-            "The resurgence of neural networks occurred in the 2000s, as researchers explored new architectures such as convolutional neural networks (CNNs) and recurrent neural networks (RNNs). Breakthroughs in deep learning occurred in the 2010s, with the development of new techniques such as deep belief networks (DBNs), and the widespread availability of large datasets and powerful computing resources."
-        ],
-          "Developments in neural network research in the 1980s and 1990s": [
-            "While the perceptron algorithm and its limitations had dampened enthusiasm for neural networks in the 1960s and 1970s, interest in neural networks picked up again in the 1980s with the development of new algorithms such as the backpropagation algorithm, which made training multi-layer neural networks feasible.",
-            "At this time, researchers also began exploring the use of neural networks for a wide range of applications, including speech recognition, image classification, and natural language processing. However, the limited computational resources of the time meant that training these neural networks remained a slow and expensive process.",
-            "In the 1990s, the emergence of support vector machines (SVMs) and other machine learning algorithms that could achieve comparable results with faster training times led to a decline in interest in neural networks.",
-            "Despite this decline, researchers continued to explore new neural network architectures and algorithms, paving the way for the resurgence of neural networks in the 2000s."
-        ],
-          "The resurgence of neural networks in the 2000s": [
-            "During the 2000s, there was a resurgence of interest in neural networks, with researchers developing new algorithms and architectures for training them. One notable breakthrough was the introduction of the restricted Boltzmann machine (RBM) in 2006, which allowed for the training of deep neural networks. This paved the way for the development of deep learning algorithms that could handle large amounts of data and learn complex patterns in a way that was not possible before. Another important development during this time was the use of graphics processing units (GPUs) to speed up the training of deep neural networks, making it possible to train much larger networks than before. These advancements led to a significant increase in the performance of deep learning algorithms, leading to their widespread adoption in various fields."
-        ],
-          "Breakthroughs in deep learning in the 2010s": [
-            "The breakthroughs in deep learning in the 2010s were largely driven by the availability of large datasets and the computational power to train deep neural networks. One of the key breakthroughs was the development of convolutional neural networks (CNNs) which revolutionized computer vision tasks such as image classification and object detection. Another breakthrough was the development of recurrent neural networks (RNNs) and long short-term memory (LSTM) networks which enabled the processing of sequential data such as natural language sentences and speech. These breakthroughs in deep learning have led to significant advancements in a wide range of applications including image and speech recognition, natural language processing, robotics, and healthcare, among others."
-        ]
-       },
-       "1.1.3 Why is deep learning important?": {
-          "Applications of deep learning in various fields": null,
-          "Advantages of deep learning over traditional machine learning": null,
-          "Potential for future developments and innovations": null
-       },
-       "1.1.4 Chapter Summary": {
-          "Key points covered in the chapter": null,
-          "Importance of understanding deep learning for future study": null,
-          "Recommended resources for further reading and exploration": null
-       }
+            ],
+            "Importance of understanding deep learning for future study": [
+                "Understanding deep learning is important for future study because it is an area of research that is constantly evolving and has the potential to drive significant advancements in various fields. Deep learning has already demonstrated impressive results in areas such as computer vision, natural language processing, speech recognition, robotics, and healthcare.",
+                "Moreover, the advantages of deep learning over traditional machine learning make it a promising approach for solving complex problems that were previously considered unsolvable. The potential for future developments and innovations in deep learning is enormous, with new techniques and models being developed regularly. Keeping up with these developments is essential for researchers, engineers, and practitioners who wish to remain at the forefront of the field.",
+                "In summary, understanding deep learning is crucial for future study because of its potential to drive advancements in various fields, its advantages over traditional machine learning, and the ever-evolving nature of the field."
+            ],
+            "Recommended resources for further reading and exploration": [
+                "Here are some recommended resources for further reading and exploration on deep learning:",
+                {
+                    "type": "numbered",
+                    "content": [
+                        "\"Deep Learning\" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville - This book is widely considered as one of the best resources for learning about deep learning. It covers the fundamentals of the field and provides a comprehensive overview of the latest research.",
+                        "\"Neural Networks and Deep Learning\" by Michael Nielsen - This book is a great introduction to the basics of neural networks and deep learning. It provides a clear and concise explanation of the key concepts and includes interactive code examples.",
+                        "\"Deep Learning with Python\" by Fran\u00e7ois Chollet - This book provides a practical introduction to deep learning with Python. It covers the basics of Keras, a popular deep learning framework, and provides a range of examples and case studies.",
+                        "\"Stanford CS229: Machine Learning\" - This course provides a comprehensive introduction to machine learning, including deep learning. It covers a range of topics, from linear regression to neural networks, and includes lectures, assignments, and exams.",
+                        "\"deeplearning.ai\" - This is a series of online courses taught by Andrew Ng, a prominent figure in the field of machine learning. The courses cover a range of topics, from neural networks to deep learning frameworks, and provide a comprehensive introduction to the field.",
+                        "\"TensorFlow\" - TensorFlow is a popular deep learning framework developed by Google. The official TensorFlow website provides a range of resources for learning about the framework, including tutorials, code examples, and documentation.",
+                        "\"PyTorch\" - PyTorch is another popular deep learning framework that has gained widespread adoption in recent years. The official PyTorch website provides a range of resources for learning about the framework, including tutorials, code examples, and documentation.",
+                        "\"Arxiv.org\" - This is a repository of research papers in a wide range of fields, including deep learning. It is a great resource for staying up-to-date with the latest research in the field.",
+                        "\"Kaggle.com\" - Kaggle is a platform for data science competitions and projects. It provides a range of datasets and challenges for practicing and learning about deep learning.",
+                        "\"GitHub.com\" - GitHub is a platform for hosting and sharing code repositories. It is a great resource for finding and sharing deep learning code examples, projects, and research papers."
+                    ]
+                }
+            ]
+        }
     },
     "Chapter 1.2 Neural Networks": {
-       "1.2.1 What are neural networks?": {
-          "Definition of neural networks": null,
-          "Historical development of neural networks": null,
-          "Anatomy of a neural network": null
-       },
-       "1.2.2 Types of neural networks": {
-          "Feedforward neural networks": null,
-          "Convolutional neural networks": null,
-          "Recurrent neural networks": null,
-          "Generative adversarial networks": null,
-          "Autoencoders": null
-       },
-       "1.2.3 How do neural networks work?": {
-          "Mathematical functions of neural networks": null,
-          "Training a neural network": null,
-          "Forward propagation and backpropagation": null,
-          "Overfitting and underfitting": null,
-          "Regularization techniques": null
-       },
-       "1.2.4 Chapter Summary": {
-          "Key points covered in the chapter": null,
-          "Importance of understanding neural networks for deep learning": null,
-          "Recommended resources for further reading and exploration": null
-       }
+        "1.2.1 What are neural networks?": {
+            "Definition of neural networks": [
+                "A neural network is a type of artificial intelligence (AI) algorithm that is modeled after the structure and function of the human brain. It is composed of layers of interconnected nodes (neurons) that process and transmit information through the network. Each neuron receives input from other neurons, processes it using an activation function, and then sends an output to other neurons in the next layer of the network. This process continues until the output of the network is produced, which is used to make a prediction or decision based on the input data.",
+                "Neural networks are designed to learn from data and improve their performance over time, making them a powerful tool for a variety of applications such as image and speech recognition, natural language processing, and predictive analytics."
+            ],
+            "Historical development of neural networks": [
+                "The concept of neural networks dates back to the 1940s, when researchers first began exploring the idea of using interconnected nodes to simulate the behavior of neurons in the brain. Early work in this area focused on developing algorithms for simple tasks such as pattern recognition.",
+                "In the 1950s and 1960s, researchers continued to refine the concept of neural networks, but progress was slow due to limitations in computing power and data availability.",
+                "In the 1980s and 1990s, neural networks experienced a resurgence in popularity as researchers developed new techniques for training them, such as backpropagation. This led to significant advances in areas such as speech recognition, image classification, and natural language processing.",
+                "In the 2000s, neural networks fell out of favor again as researchers turned their attention to other machine learning techniques such as support vector machines and decision trees. However, the explosion of big data and improvements in computing power in the 2010s led to a renewed interest in neural networks, which have since become the foundation of many of today's most advanced AI systems."
+            ],
+            "Anatomy of a neural network": [
+                "The anatomy of a neural network refers to the structure and organization of the individual components that make up the network. A neural network is composed of a series of interconnected nodes, also known as neurons. These neurons are arranged in layers, with each layer consisting of a specific number of neurons.",
+                "The three main types of layers in a neural network are the input layer, hidden layers, and output layer. The input layer is responsible for receiving the initial input data and passing it to the next layer, while the output layer produces the final output of the network. The hidden layers are located between the input and output layers and are responsible for processing the input data by performing a series of computations.",
+                "Each neuron in a neural network is connected to other neurons through weighted connections, which allow the network to learn from the input data and adjust its parameters accordingly. The weights of these connections are adjusted during the training process, which involves presenting the network with a set of input data and adjusting its parameters until the output produced by the network closely matches the desired output.",
+                "Overall, the anatomy of a neural network is crucial for understanding how the network processes and learns from input data. By understanding the structure of a neural network, researchers and developers can better design and optimize networks for specific tasks and applications."
+            ]
+        },
+        "1.2.2 Types of neural networks": [
+            "There are several types of neural networks, each designed for specific types of tasks and applications. Here are some of the most common types:",
+            {
+                "type": "bulleted",
+                "content":{
+                    "Feedforward neural networks": "These networks are the most basic type of neural network, consisting of an input layer, one or more hidden layers, and an output layer. They are used for tasks such as pattern recognition, classification, and regression.",
+                    "Convolutional neural networks": "These networks are designed for image and video processing tasks. They are composed of layers of convolutional and pooling operations that allow the network to learn spatial features and patterns.",
+                    "Recurrent neural networks": "These networks are used for tasks involving sequential data, such as natural language processing and speech recognition. They contain \"memory\" cells that allow the network to remember previous inputs and learn temporal patterns.",
+                    "Generative adversarial networks": "These networks are composed of two separate networks - a generator network and a discriminator network - that work together to generate new data that is similar to a given training set. They are used in tasks such as image and music generation.",
+                    "Autoencoders": "These networks are used for data compression and feature extraction. They are composed of an encoder network that compresses the input data into a lower-dimensional representation, and a decoder network that reconstructs the original data from the compressed representation."
+                    }
+            }
+        ],
+        "1.2.3 How do neural networks work?": [
+            "Neural networks are composed of individual neurons or nodes that are connected to each other through weighted connections. Each node receives input from other nodes or external sources, processes this input through an activation function, and passes on the result to other nodes downstream.",
+            {
+                "type": "titled",
+                "content": {
+                    "Mathematical functions of neural networks": [
+                        "Neural networks use a variety of mathematical functions to perform their computations. Some of the most common functions include:",
+                        {
+                            "type": "bulleted",
+                            "content": {
+                                "Linear functions": "These functions output a scaled version of the input.",
+                                "Non-linear functions": "These functions introduce non-linearities into the computation, allowing neural networks to model more complex relationships between inputs and outputs.",
+                                "Activation functions": "These functions determine the output of a neuron based on its input. Common activation functions include the sigmoid, ReLU, and tanh functions."
+                            }
+                        }
+                    ],
+                    "Training a neural network": [
+                        "Training a neural network involves adjusting the weights of its connections so that it produces the desired output for a given input. This is typically done by minimizing a loss function that measures the difference between the network's predicted output and the actual output. This process is known as optimization, and there are a variety of techniques that can be used to perform it, such as stochastic gradient descent."
+                    ],
+                    "Forward propagation and backpropagation": [
+                        "Forward propagation is the process of computing the output of a neural network given a particular input. Backpropagation is the process of computing the gradients of the loss function with respect to the weights of the network, so that they can be updated during optimization. Backpropagation works by applying the chain rule of calculus to compute these gradients efficiently."
+                    ],
+                    "Overfitting and underfitting": [
+                        "Overfitting and underfitting are common problems that can occur when training a neural network. Overfitting occurs when a network becomes too complex and starts to fit the noise in the training data rather than the underlying patterns. Underfitting occurs when a network is too simple and fails to capture the underlying patterns in the data. Techniques such as regularization can help to address these problems."
+                    ],
+                    "Regularization techniques": [
+                        "Regularization is the process of adding constraints to the weights of a neural network to prevent it from overfitting. Some common regularization techniques include L1 and L2 regularization, dropout, and early stopping."
+                    ]
+                }
+            }
+        ],
+        "1.2.4 Chapter Summary": {
+            "Key points covered in the chapter": null,
+            "Importance of understanding neural networks for deep learning": null,
+            "Recommended resources for further reading and exploration": null
+        }
     },
     "Chapter 1.3 Perceptrons": {
-       "1.3.1 What are perceptrons?": {
-          "Definition of perceptrons": null,
-          "Anatomy of a perceptron": null,
-          "Perceptron activation function": null
-       },
-       "1.3.2 The Rosenblatt Perceptron algorithm": {
-          "Introduction to the Rosenblatt Perceptron algorithm": null,
-          "Training a perceptron using the Rosenblatt algorithm": null,
-          "Examples of perceptron applications": null
-       },
-       "1.3.3 Limitations of the perceptron algorithm": {
-          "Limitations of single-layer perceptrons": null,
-          "Introduction to multi-layer perceptrons": null,
-          "Role of activation functions in neural networks": null
-       },
-       "1.3.4 Chapter Summary": {
-          "Key points covered in the chapter": null,
-          "Importance of understanding perceptrons as building blocks of neural networks": null,
-          "Recommended resources for further reading and exploration": null
-       }
+        "1.3.1 What are perceptrons?": {
+            "Definition of perceptrons": null,
+            "Anatomy of a perceptron": null,
+            "Perceptron activation function": null
+        },
+        "1.3.2 The Rosenblatt Perceptron algorithm": {
+            "Introduction to the Rosenblatt Perceptron algorithm": null,
+            "Training a perceptron using the Rosenblatt algorithm": null,
+            "Examples of perceptron applications": null
+        },
+        "1.3.3 Limitations of the perceptron algorithm": {
+            "Limitations of single-layer perceptrons": null,
+            "Introduction to multi-layer perceptrons": null,
+            "Role of activation functions in neural networks": null
+        },
+        "1.3.4 Chapter Summary": {
+            "Key points covered in the chapter": null,
+            "Importance of understanding perceptrons as building blocks of neural networks": null,
+            "Recommended resources for further reading and exploration": null
+        }
     },
     "Chapter 1.4 Multi-Layer Perceptrons": {
         "1.4.1 Introduction to multi-layer perceptrons": {
@@ -127,7 +210,7 @@
             "Importance of understanding multi-layer perceptrons and backpropagation for deep learning": null,
             "Recommended resources for further reading and exploration": null
         }
-        },
+    },
     "Chapter 1.5 Deep Learning Notations": {
         "1.5.1 Vector and Matrix notation": {
             "Introduction to vector and matrix notation": null,
@@ -151,7 +234,7 @@
             "Importance of understanding vector and matrix notation, gradient descent and cost functions in deep learning": null,
             "Recommended resources for further reading and exploration": null
         }
-        },
+    },
     "Chapter 1.6 The problem of local optimum and saddle point": {
         "1.6.1 What are local optima?": {
             "Definition of local optima": null,
@@ -231,4 +314,3 @@
         }
     }
 }
-     

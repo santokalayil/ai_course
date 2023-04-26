@@ -1,0 +1,111 @@
+Linear algebra and calculus
+
+Linear algebra and calculus are two essential branches of mathematics that form the foundation of deep learning. In this introduction, we will explain the key concepts of linear algebra and calculus in the context of deep learning.
+Linear Algebra: Linear algebra is the study of linear systems of equations and their properties. In deep learning, linear algebra is used to represent and manipulate data and models. The following are some of the key concepts of linear algebra that are relevant to deep learning:
+    1. Vectors and Matrices: Vectors and matrices are the fundamental building blocks of deep learning. Vectors are one-dimensional arrays of numbers, while matrices are two-dimensional arrays of numbers. In deep learning, vectors are used to represent data points, and matrices are used to represent models.
+    2. Matrix Operations: In deep learning, we perform various matrix operations such as addition, subtraction, multiplication, and division. These operations are used to transform and manipulate data and models.
+    3. Linear Transformations: A linear transformation is a transformation that preserves the linearity of the input data. In deep learning, linear transformations are used to transform and manipulate data and models.
+    4. Eigenvalues and Eigenvectors: Eigenvalues and eigenvectors are used to analyze the properties of matrices. In deep learning, they are used to understand the behavior of models.
+Calculus: Calculus is the study of rates of change and their properties. In deep learning, calculus is used to optimize models and understand their behavior. The following are some of the key concepts of calculus that are relevant to deep learning:
+    1. Derivatives: Derivatives are used to compute the rate of change of a function. In deep learning, derivatives are used to optimize models by updating the model parameters.
+    2. Gradients: Gradients are used to compute the rate of change of a function with respect to its parameters. In deep learning, gradients are used to optimize models by updating the model parameters.
+    3. Chain Rule: The chain rule is used to compute the derivatives of composite functions. In deep learning, the chain rule is used to compute the gradients of deep models.
+    4. Optimization: Optimization is the process of finding the optimal values of the model parameters. In deep learning, optimization is used to train models by minimizing the loss function.
+In summary, linear algebra and calculus are two essential branches of mathematics that are used extensively in deep learning. Understanding the key concepts of linear algebra and calculus is crucial for developing and understanding deep learning models.
+
+
+
+Perceptron as building block
+
+The Perceptron is a fundamental building block in deep learning that forms the basis of many more complex neural networks. It is a type of artificial neuron that can learn from input data and make decisions based on that learning. The Perceptron was introduced in 1957 by Frank Rosenblatt, and it was one of the first neural network models to be developed.
+The Perceptron takes one or more inputs, multiplies each input by a weight, and then sums up the weighted inputs. The weighted sum is then passed through an activation function, which determines whether the Perceptron will output a signal or not. The output signal is used as input to the next layer of neurons or as the final output of the network.
+In deep learning, Perceptrons are used in various ways. They can be used as the basic building block of a neural network or as a standalone model. When used in a neural network, they can be stacked to form deeper architectures, such as multi-layer perceptrons (MLPs) or convolutional neural networks (CNNs). These deeper architectures can learn more complex features from the input data and can be used for more complex tasks such as image recognition and natural language processing.
+Perceptrons can be trained using a supervised learning algorithm called the perceptron learning algorithm. This algorithm adjusts the weights of the Perceptron based on the error between the predicted output and the true output. By iteratively adjusting the weights, the Perceptron can learn to make better predictions.
+In summary, the Perceptron is a basic building block in deep learning that is used to construct more complex neural networks. It is a simple artificial neuron that takes one or more inputs, applies weights, and outputs a signal based on an activation function. Perceptrons can be trained using supervised learning algorithms and can be used for a wide range of tasks in deep learning.
+
+
+
+MLP as a Generalized Perceptron
+
+Multi-layer perceptrons (MLPs) are a type of neural network that can be seen as a generalized form of the Perceptron. While the Perceptron can only learn linearly separable patterns, MLPs can learn non-linear decision boundaries and are capable of solving more complex problems.
+An MLP is composed of one or more layers of neurons, each layer being fully connected to the next one. The input layer receives the input data, and the output layer produces the network's output. The layers in between the input and output layers are called hidden layers, and they perform intermediate computations on the input data.
+Each neuron in an MLP is similar to a Perceptron, in that it computes a weighted sum of its inputs and applies an activation function to the result. The weights in an MLP are learned through a process called backpropagation, where the error between the predicted output and the true output is propagated backward through the network, and the weights are adjusted to minimize the error.
+The activation functions used in MLPs are typically non-linear, such as the sigmoid or the rectified linear unit (ReLU), which allows the network to learn non-linear decision boundaries. MLPs can also use different optimization algorithms to minimize the error, such as stochastic gradient descent (SGD), Adam, or Adagrad.
+MLPs can be used for a wide range of tasks, such as image classification, speech recognition, and natural language processing. They are considered one of the most versatile and widely used types of neural networks in deep learning.
+In summary, MLPs are a type of neural network that generalize the Perceptron by allowing for non-linear decision boundaries and solving more complex problems. They are composed of multiple layers of neurons, each performing intermediate computations on the input data. MLPs are trained through backpropagation and can use different activation functions and optimization algorithms.
+
+
+
+
+
+Activation Functions
+
+Activation functions are an important component of neural networks in deep learning. They are used to introduce non-linearity into the output of a neuron, which enables the network to learn more complex functions and patterns.
+
+There are several commonly used activation functions in deep learning:
+
+Sigmoid: The sigmoid function takes a real-valued input and maps it to a value between 0 and 1. It is often used in binary classification tasks where the output represents the probability of a certain class.
+
+Tanh: The hyperbolic tangent function, or tanh, maps a real-valued input to a value between -1 and 1. It is similar to the sigmoid function but has a steeper gradient, which can make it more effective for training deep networks.
+
+ReLU: The rectified linear unit, or ReLU, is a piecewise linear function that returns the input if it is positive and 0 otherwise. It has become one of the most popular activation functions due to its simplicity and effectiveness in deep networks.
+
+Leaky ReLU: The leaky rectified linear unit, or Leaky ReLU, is a variation of the ReLU function that returns a small negative value for negative inputs instead of 0. This can help prevent dead neurons in the network.
+
+Softmax: The softmax function is often used as the final activation function in a neural network for multi-class classification tasks. It maps the output of the network to a probability distribution over the possible classes.
+
+Activation functions play a critical role in the performance of a neural network. Choosing the right activation function depends on the specific task and the architecture of the network. A good activation function should be non-linear, easy to compute, and have a derivative that can be computed efficiently during backpropagation.
+
+
+
+Notations used in Deep Learning
+
+Deep learning uses several notations to describe the mathematical operations that are performed in neural networks. Some of the commonly used notations are:
+    1. Scalars: Scalars are single numerical values, such as a or b, used to represent a single value.
+    2. Vectors: Vectors are arrays of scalars, represented by lowercase bold letters such as x, y or z. They are often used to represent features or inputs in a neural network.
+    3. Matrices: Matrices are arrays of vectors, represented by uppercase bold letters such as A, B or C. They are used to represent the weights of a neural network or the input-output relationships between layers.
+    4. Tensors: Tensors are multi-dimensional arrays, represented by boldface capital letters such as T, U or V. They are used to represent the input and output of neural networks, which can have multiple dimensions, such as color images with three channels.
+    5. Dot Product: The dot product between two vectors is represented by a dot (.) or by parentheses, such as x*y or (x,y). It is used to calculate the weighted sum of the input and weights in a neural network.
+    6. Matrix Multiplication: Matrix multiplication is represented by the multiplication symbol (), such as AB. It is used to calculate the output of a layer in a neural network by multiplying the input vector with the weights matrix.
+    7. Element-wise Multiplication: Element-wise multiplication between two vectors or matrices is represented by a dot symbol (*), such as A.*B. It is used in some neural network architectures, such as convolutional neural networks (CNNs).
+Notations are important in deep learning to help describe the mathematical operations and relationships between the different components of the network. By using standard notations, it becomes easier for researchers and practitioners to communicate and share their work.
+
+
+Feedforward propagation
+
+Feedforward propagation is the process by which data is passed through a neural network in a forward direction, from input to output, without any feedback or recurrent connections. It is also known as forward propagation or inference.
+In a typical feedforward neural network, the data is first preprocessed and normalized, and then passed through one or more layers of neurons, each layer performing a transformation on the input. The input layer receives the data and passes it on to the first hidden layer, which performs a linear transformation on the input, followed by a non-linear activation function. The output of the first hidden layer is then passed on to the next hidden layer, and so on, until the output layer is reached.
+The output layer produces the final output of the network, which can be a single value or a vector of values, depending on the task. For example, in a classification task, the output layer might produce a probability distribution over the possible classes, while in a regression task, the output layer might produce a continuous value.
+During feedforward propagation, the weights and biases of the neurons are fixed and are not updated. The network simply performs a series of matrix multiplications and activations to transform the input into the final output.
+Feedforward propagation is an important part of training a neural network, as it provides the predicted output of the network, which can be compared to the true output to compute the error. The error is then used to update the weights and biases of the network using backpropagation, which allows the network to learn and improve its performance over time.
+
+The notation for feedforward propagation can vary depending on the specific architecture and notation convention used, but some common symbols and notation include:
+    • $x$: the input data or feature vector
+    • $W$: the weight matrix connecting two layers
+    • $b$: the bias vector for a layer
+    • $a$: the activation function applied to the input to compute the output of a neuron or layer
+    • $z$: the weighted sum of the inputs to a neuron, computed as $z = Wx + b$
+    • $y$: the output of the network, computed as $y = f(z)$, where $f$ is the activation function applied element-wise to $z$
+    • $L$: the number of layers in the network
+    • $n^{[l]}$: the number of neurons in the $l$-th layer of the network
+    • $a^{[l]}$: the activation output of the $l$-th layer, computed as $a^{[l]} = f(z^{[l]})$
+    • $z^{[l]}$: the weighted sum of the inputs to the neurons in the $l$-th layer, computed as $z^{[l]} = W^{[l]}a^{[l-1]} + b^{[l]}$
+    • $W^{[l]}$: the weight matrix connecting the $(l-1)$-th and $l$-th layers
+    • $b^{[l]}$: the bias vector for the $l$-th layer
+During feedforward propagation, the input data $x$ is passed through the layers of the network, with the output of each layer being the input to the next layer. The output of the final layer is the predicted output of the network, denoted by $y$. The computation of the output can be expressed as $y = f(z^{[L]})$, where $L$ is the number of layers in the network and $z^{[L]}$ is the weighted sum of the inputs to the neurons in the final layer.
+
+
+Chain Rule and Backpropagation
+
+Chain rule and backpropagation are important concepts in deep learning that are used to train neural networks.
+The chain rule is a fundamental theorem of calculus that allows us to compute the derivative of a composite function. In the context of neural networks, the chain rule is used to compute the gradients of the loss function with respect to the parameters of the network.
+Backpropagation is an algorithm used to efficiently compute the gradients of the loss function with respect to the parameters of a neural network. It is based on the chain rule and works by propagating the gradients backwards through the network from the output layer to the input layer.
+To understand how backpropagation works, let's consider a simple neural network with a single hidden layer. The network takes an input $x$ and produces an output $\hat{y}$, which is compared to the true label $y$ to compute a loss function $L(\hat{y}, y)$. The goal of backpropagation is to compute the gradients of the loss function with respect to the weights and biases of the network.
+To compute the gradients, we first compute the gradients of the loss function with respect to the output of the network, denoted by $\frac{\partial L}{\partial \hat{y}}$. Using the chain rule, we then compute the gradients of the loss function with respect to the inputs to the final layer, denoted by $\frac{\partial L}{\partial z^{[L]}}$. We can then use these gradients to compute the gradients of the loss function with respect to the weights and biases of the final layer, denoted by $\frac{\partial L}{\partial W^{[L]}}$ and $\frac{\partial L}{\partial b^{[L]}}$.
+We then propagate these gradients backwards through the network to compute the gradients of the loss function with respect to the inputs to the previous layer, denoted by $\frac{\partial L}{\partial z^{[L-1]}}$. Again using the chain rule, we can compute the gradients of the loss function with respect to the weights and biases of the previous layer, denoted by $\frac{\partial L}{\partial W^{[L-1]}}$ and $\frac{\partial L}{\partial b^{[L-1]}}$.
+We repeat this process for all the layers in the network until we reach the input layer. Once we have computed the gradients of the loss function with respect to all the parameters of the network, we can use gradient descent or other optimization algorithms to update the weights and biases and minimize the loss function.
+Backpropagation is a computationally efficient way to compute the gradients of the loss function with respect to the parameters of a neural network. It allows us to efficiently train deep neural networks with many layers and millions of parameters.
+
+
+
+

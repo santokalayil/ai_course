@@ -3,7 +3,6 @@ Chapter 1.1 Introduction
 1.1.1 What is deep learning?
     • Definition of deep learning
     • Comparison with machine learning and artificial intelligence
-    • Advantages of deep learning over traditional machine learning
 1.1.2 Brief history of deep learning
     • The origins of neural networks
     • Developments in neural network research in the 1980s and 1990s

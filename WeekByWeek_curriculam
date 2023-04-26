@@ -1,0 +1,106 @@
+Curriculum: AI with Deep Learning
+
+
+Week 1: Introduction to Deep Learning
+    • Deep Learning & History
+    • Real-world Applications of Deep Learning
+    • Introduction to Linear Algebra and Calculus
+Multi-Layer Perceptron
+    • Perceptron as a Building Block
+    • MLP as a Generalized Perceptron
+    • Activation Functions
+Deep Learning Notations
+    • Notations Used in Deep Learning
+    • Feedforward Propagation
+    • Chain Rule and Backpropagation
+
+Week 2: Neural Network Training
+Types of Activation Functions
+    • Linear and Nonlinear Activation Functions
+    • Sigmoid Function
+    • ReLU Function
+    • Softmax Function
+Training the Neural Network
+    • Loss Function
+    • Mean Squared Error
+    • Cross-Entropy Loss
+    • Mini-Batch Gradient Descent
+Optimization Techniques
+    • The Problem of Local Optima and Saddle Points
+    • Different Optimization Techniques: Adam, Adagrad, and Others
+    • Weight Initialization Strategies
+
+Week 3: Regularization and Neural Network Variants
+Regularization
+    • Dropout
+    • Early Stopping
+    • Data Augmentation
+Batch Normalization
+    • Introduction to Batch Normalization
+    • Benefits of Batch Normalization
+    • Batch Normalization in Neural Networks
+Types of Neural Networks
+    • Recurrent Neural Networks (RNNs)
+    • Convolutional Neural Networks (CNNs)
+    • Autoencoders
+    • Generative Adversarial Networks (GANs)
+
+Week 4: Computer Vision
+Introduction to Images and Formats
+    • Concepts of Images and Pixels
+    • Image Manipulation
+    • Image Preprocessing
+Convolutional Neural Networks
+    • Concepts of Convolution
+    • Parts of CNN Architecture
+    • CNN Architecture - Hands on
+    • Convolution Hands on
+Transfer Learning and Advanced CNN Architectures
+    • Transfer Learning
+    • CNN Architectures
+    • CNN Architectures Comparison
+    • Evolution of Architecture
+Image Segmentation
+    • Semantic and Instance Segmentation
+    • Fully Convolutional Network Architecture
+    • FCN for Semantic Segmentation
+    • U-Net
+    • Semantic Segmentation using U-Net
+    • Siamese Networks
+
+Week 5: Natural Language Processing
+Introduction to NLP
+    • Text Preprocessing
+    • NLTK
+    • Spacy
+    • Common NLP Terms
+Word Embeddings and Text Classification
+    • Word Representation
+    • Vectorization Technique
+    • Text Classification
+    • Sentiment Analysis
+Dense Encoding and Probabilistic Models
+    • GloVe Vectors
+    • Probabilistic Models
+    • Bayesian Models
+    • Markov Chains
+    • Hidden Markov Models
+    • Named Entity Recognition (NER)
+    • Part-of-Speech (POS) Tagging
+Introduction to Sequential Models
+    • RNNs
+    • LSTMs
+
+
+The book content could include:
+    • Clear explanations of all the concepts covered in the curriculum, with lots of examples and diagrams to help students understand.
+    • Code snippets and tutorials to help students implement the algorithms and models discussed in the curriculum.
+    • Real-world case studies and examples to help students see the practical applications of what they are learning.
+    • Exercises and projects to help students apply their knowledge and develop their skills.
+
+TensorFlow and PyTorch are popular libraries used for implementing deep learning models. They can be included in the curriculum in the following ways:
+    • In Week 2, Optimization Techniques: TensorFlow and PyTorch can be introduced as popular libraries used for implementing gradient descent and other optimization techniques.
+    • In Week 3, Regularization and Neural Network Variants: TensorFlow and PyTorch can be introduced as libraries used for implementing different types of neural networks, including RNNs, CNNs, and GANs.
+    • In Week 4, Computer Vision: TensorFlow and PyTorch can be introduced as popular libraries used for implementing image classification, object detection, and image segmentation models.
+    • In Week 5, Natural Language Processing: TensorFlow and PyTorch can be introduced as popular libraries used for implementing text classification, sentiment analysis, and sequence modeling models.
+Throughout the book, code snippets and tutorials can be provided in both TensorFlow and PyTorch to help students implement the models and algorithms covered in the curriculum.
